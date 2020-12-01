@@ -1,2 +1,2 @@
 # Calculator
-Arithmetic Calculator, It's like real calculator. Not some basic if else things.
+Arithmetic Calculator. I mean it's like "real calculator"Not some basic if else things.
