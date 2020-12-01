@@ -44,12 +44,8 @@ def perform_math():
         # These characters: '[a-zA-Z,:()"]' will not be displayed from the output
         equation = re.sub('[a-zA-Z,:()"]', '', equation)
         if previous == 0:
-
-            # It will do the calculation
             previous = eval(equation)
         else:
-
-            # This things too
             previous = eval(str(previous) + equation)
 
 
